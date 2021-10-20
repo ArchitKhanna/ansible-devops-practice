@@ -1,0 +1,4 @@
+[EC2 instances]
+Dev  ansible_host=34.242.46.184
+QA   ansible_host=34.244.107.47
+Prod ansible_host=52.17.8.125

@@ -1,0 +1,6 @@
+ansible -m ping all
+ansible all -a "whoami"
+ansible all -a "uname"
+ansible all -a "uname -a"
+ansible all -a "pwd"
+ansible all -a "python --version"
