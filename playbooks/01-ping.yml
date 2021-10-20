@@ -3,3 +3,7 @@
   tasks: 
     - name: Ping All Servers
       action: ping 
+    - debug: msg="Hello World"
+- hosts: EC2
+  tasks: 
+    - debug: msg="Hello EC2" 
