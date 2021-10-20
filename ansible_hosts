@@ -1,4 +1,14 @@
-[EC2 instances]
+[EC2]
 Dev  ansible_host=34.242.46.184
 QA   ansible_host=34.244.107.47
+
+[Prod] 
 Prod ansible_host=52.17.8.125
+
+[first]
+Dev
+Prod
+
+[parentgroup:children]
+EC2
+Prod
