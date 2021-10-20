@@ -9,6 +9,9 @@ Prod ansible_host=52.17.8.125
 Dev
 Prod
 
-[parentgroup:children]
+[parentgroup:children] 
 EC2
 Prod
+
+[subset]
+Prod[1:2]

@@ -5,3 +5,8 @@ ansible all -a "uname -a"
 ansible all -a "pwd"
 ansible all -a "python --version"
 ansible Prod -a "python --version"
+ansible --list-host all
+ansible --list-host Prod
+ansible --list-host \!Prod
+
+ansible-playbook playbooks/01-ping.yml
