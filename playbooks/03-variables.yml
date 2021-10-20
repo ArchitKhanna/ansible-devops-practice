@@ -1,0 +1,10 @@
+---
+- hosts: all
+  vars_files: 
+    - variables.yml
+  vars:
+    variable1: "playbook"
+- hosts: all
+  tasks: 
+    - name: Variable Print
+      debug: msg=" Value - {{ variable1 }}"
