@@ -2,5 +2,6 @@
 - hosts: all
   tasks: 
     - name: Shell Commands
-      shell: uname 
-    - debug: msg="Hello World"
+      shell: uname
+      register: uname_result 
+    - debug: msg="{{ uname_result.stdout_lines }}"

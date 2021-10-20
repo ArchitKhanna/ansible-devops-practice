@@ -10,3 +10,4 @@ ansible --list-host Prod
 ansible --list-host \!Prod
 
 ansible-playbook playbooks/01-ping.yml
+ansible-playbook playbooks/02-shell.yml
