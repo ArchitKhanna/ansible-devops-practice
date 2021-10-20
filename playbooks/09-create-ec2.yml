@@ -9,7 +9,7 @@
         #count: 1
         exact_count: 2
         count_tag: {type: http}
-        vpc_subnet_id: subnet-75cb9912
+        vpc_subnet_id: subnet-00397b88dfe44d190
         assign_public_ip: yes
         group: ["http_server_sg"]
         instance_tags: {type: http, Environment: QA}

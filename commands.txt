@@ -25,3 +25,4 @@ ansible-playbook playbooks/09-create-ec2.yml
 ansible Prod -m setup 
 
 ansible-inventory --list
+ansible-inventory --graph
